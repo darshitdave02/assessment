@@ -2,12 +2,6 @@ const { bestScore, calculateScore} = require('./scoreCalculation')
 
 describe('Score Calculation',() => {
     describe('Checking Inputs',() => {
-      
-  
-      // it('Should return -1 when input is not an array',() => {
-      //     const result = doubleNumbers('abc');
-      //     expect(result).toBe(-1)
-      // })
   
       it('Should throw an error when input is not an array',() => {
               
