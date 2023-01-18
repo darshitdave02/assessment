@@ -69,6 +69,8 @@ const bestScore = (games) => {
 
 }
 
+module.exports = { bestScore, calculateScore }
+
 console.log(bestScore(games));
 
 // console.log(calculateScore([3, 6, 3, 6, 3, 6, 3, 6, 3, 6, 3, 6, 3, 6, 3, 6, 3, 6, 3, 6]))
